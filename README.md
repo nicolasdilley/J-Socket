@@ -3,15 +3,15 @@ A library for java TCP socket communications inspired by socket.io.
 
 ## Features 
 
-- J-Socket is an extremely lightweight library that is completely open-source and that can be used for commercial use.
-- J-Socket provides you the ability to create easily a bi-directionnal communication between a server and his clients.
+- J-Socket is an extremely lightweight open-source library which can be used for commercial use.
+- J-Socket provides you with the ability to easily create a bi-directionnal communication between a server and its clients.
 - J-Socket does not require a web container to work.
-- J-Socket is based on the TCP protocol and is therefore reliable.
+- J-Socket is based on the TCP protocol and is, therefore, reliable.
 
 ## Installation
 
-clone the src/main/java/ folder into your project and start using J-Socket. 
-J-Socket require javax.json to work.
+Clone the src/main/java/ folder into your project and start using J-Socket. 
+J-Socket requires javax.json to work.
 
 add the following dependency to maven.
 ```
@@ -48,7 +48,7 @@ add the following dependency to maven.
  socket.emit("message",messageToSend);
  ```
  
- To create a server that echo messages received here is what you need :
+ To create a server that echo messages received, here is what you need :
  
  ```
  int port = 3030;
@@ -62,7 +62,7 @@ add the following dependency to maven.
            System.out.println("A new message has been received by the server");
            socket.emit("message",message);
            socket.broadcast("new message",message);
-      });
+      })
  });
  ```
  

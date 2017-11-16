@@ -1,10 +1,10 @@
 # J-Socket
-A library for java TCP socket inspired by socket.io. 
+A library for java TCP socket communications inspired by socket.io. 
 
 ## Features 
 
-- J-socket is an extremely lightweight library that is completely open-source and can be used for commercial use.
-- J-Socket provides you the ability to create easily a bi directionnal communication between a server and his clients.
+- J-Socket is an extremely lightweight library that is completely open-source and that can be used for commercial use.
+- J-Socket provides you the ability to create easily a bi-directionnal communication between a server and his clients.
 - J-Socket does not require a web container to work.
 - J-Socket is based on the TCP protocol and is therefore reliable.
 
@@ -27,9 +27,9 @@ add the following dependency to maven.
  
  ## Guide
  
- A simpleChat example can be found under the /example folder. SimpleChat is a command line very basic chat app. 
+ A simpleChat example can be found under the /example folder. SimpleChat is a basic command line chat app. 
  
- To create a client only a few lines of code are needed
+ To create a client only a few lines of code are needed : 
  ```
  Socket socket = new Socket("localhost",3030); 
  

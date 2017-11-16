@@ -27,7 +27,7 @@ add the following dependency to maven.
  
  ## Guide
  
- A simple example is actually in development. 
+ A simple example can be found under the /example folder of a simple command line chat app. 
  
  To create a client only a few lines of code are needed
  ```

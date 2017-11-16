@@ -27,7 +27,7 @@ add the following dependency to maven.
  
  ## Guide
  
- A simple example can be found under the /example folder of a simple command line chat app. 
+ A simpleChat example can be found under the /example folder. SimpleChat is a command line very basic chat app. 
  
  To create a client only a few lines of code are needed
  ```
